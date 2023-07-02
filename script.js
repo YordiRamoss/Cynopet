@@ -19,11 +19,9 @@ statbar_honger = document.querySelector("statbar_honger");
 statbar_training = document.querySelector("statbar_training");
 statbar_vrolijk = document.querySelector("statbar_vrolijk");
 
-//buttons
+document.addEventListener("keydown", (w) => alert ("Cynoooo"))
 
-ddd
-
-// Fill functions
+// Fill functiens
 document.getElementById("btn_honger").onclick = function fillHonger() {
 	if (honger <= 99 && honger != 0) {
 		honger += 2;
@@ -34,7 +32,7 @@ document.getElementById("btn_honger").onclick = function fillHonger() {
 	}
 }
 
-function fillTraining() {
+document.getElementById("btn_training").onclick = function fillTraining() {
 	if (Training <= 99 && Training != 0) {
 		Training += 2;
 		document.getElementById("statbar_training").value = Training;
@@ -44,7 +42,7 @@ function fillTraining() {
 	}
 }
 
-function fillVrolijk() {
+document.getElementById("btn_vrolijk").onclick = function fillVrolijk() {
 	if (Vrolijk <= 99 && Training != 0) {
 		Vrolijk += 2;
 		document.getElementById("statbar_vrolijk").value = Vrolijk;
@@ -73,7 +71,7 @@ function gameovercheck() {
 
 // Item functions
 
-function AdeptusTemptationEffect() {
+document.getElementById("btn_item1").onclick = function AdeptusTemptationEffect() {
 	if (honger == 0 && money >= 150 && gameover == 0) {
 		money -= 150;
 		honger += 50;
@@ -82,7 +80,7 @@ function AdeptusTemptationEffect() {
 	}
 }
 
-function KoopeenwapenEffect() {
+document.getElementById("btn_item2").onclick = function KoopeenwapenEffect() {
 	if (Training == 0 && money >= 200 && gameover == 0) {
 		money -= 200;
 		Training += 50;
@@ -92,7 +90,7 @@ function KoopeenwapenEffect() {
 	}
 }
 
-function KoopantidepressivaEffect() {
+document.getElementById("btn_item3").onclick = function KoopantidepressivaEffect() {
 	if (Vrolijk == 0 && money >= 300 && gameover == 0) {
 		money -= 300;
 		Vrolijk += 50;
@@ -102,7 +100,7 @@ function KoopantidepressivaEffect() {
 	}
 }
 
-function ElementalBurst() {
+document.getElementById("btn_item4").onclick = function ElementalBurst() {
 	if (elementalBurst_win == false && money >= 1000) {
 		money -= 1000;
 		elementalBurst_win = true;
