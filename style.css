@@ -1,0 +1,93 @@
+@charset "UTF-8";
+*{
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: url(./Images/DessertBackground.jpg);
+}
+
+.TitleText {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: Center;
+	font-family: Lucida console;
+	text-shadow: 0px 2px 4px grey;
+	width: 75%;
+	border-radius: 20px;
+	background-color: #e390ff;
+	box-shadow: 0px 2px 4px #cf40ff;
+}
+
+.CynoPic{
+	width: 400px;
+	height: auto;
+	position: relative;
+	display: block;
+	margin: auto;
+}
+.MoneyCounter {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-family: sans-serif;
+	width: 20%;
+	border-radius: 20px;
+	background-color: #e390ff;
+	box-shadow: 0px 2px 4px #cf40ff;
+}
+
+.StatVrolijk, .StatHonger, .StatTraining {
+	margin-left: auto;
+    margin-right: auto;
+	text-align: center;
+	font-family: sans-serif;
+	color: #FFFFFF;
+	text-shadow: 0px 1px 3px #cf40ff, 0px -1px 3px #cf40ff;
+}
+
+.Buttons{
+	margin-left: auto;
+    margin-right: auto;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.Footer {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: Center;
+	font-family: sans-serif;
+	width: 25%;
+	padding: 0.5px;
+	border-radius: 20px;
+	text-align: center;
+	background-color: #e390ff;
+	box-shadow: 0px 2px 4px #cf40ff;
+}
+.ItemWindow {
+    margin-left: auto;
+    margin-right: auto;
+	text-align: center;
+	background-color: #FFFFFF;
+	border-radius: 20px;
+	width: 20%;
+	box-shadow: 0px 5px 10px #cf40ff;
+	font-family: sans-serif;
+}
+
+
+
+.Structuur {
+	display: flex;
+	flex-direction: row;
+}
