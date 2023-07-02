@@ -21,7 +21,7 @@ statbar_vrolijk = document.querySelector("statbar_vrolijk");
 
 //buttons
 
-
+ddd
 
 // Fill functions
 document.getElementById("btn_honger").onclick = function fillHonger() {
